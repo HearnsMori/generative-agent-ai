@@ -1,4 +1,5 @@
-// server.js
+// nodejs using express web server for generative agentic functionality
+// Algo Idea by Mark Lester Dula & Hearns Mori
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
