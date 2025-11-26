@@ -69,8 +69,8 @@ Send a message to the AI agent and receive a JSON response.
 
 ```json
 {
-  "msg": "Hello",
-  "agentJSON": "{ \"msg\": \"<your message format>\" }"
+  "msg": "hello",
+  "agentJSON": "{'msg':'hi', 'model':'<indicate your model>', 'random': <true or false>, number: <random number 1 to 100>}"
 }
 ```
 
@@ -78,7 +78,10 @@ Send a message to the AI agent and receive a JSON response.
 
 ```json
 {
-  "msg": "Hi there! How can I help you today?"
+  "msg": "hi",
+  "model": "Google Generative AI",
+  "random": true,
+  "number": 42
 }
 ```
 
